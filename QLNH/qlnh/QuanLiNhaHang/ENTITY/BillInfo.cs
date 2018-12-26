@@ -8,8 +8,8 @@ namespace QuanLiNhaHang.ENTITY
 {
     class BillInfo
     {
-        int idBill;
-        int idMenu;
-        int count;
+        private int idBill;
+        private int idMenu;
+        private int count;
     }
 }

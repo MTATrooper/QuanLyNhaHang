@@ -354,14 +354,15 @@ namespace QuanLiNhaHang.GUI
                 key++;
                 lbloitablename.Text = "*Tên bàn bị trùng";
             }
-            if (tbstatus.TextLength != 0)
-            {
-                tablemenu.Status = Convert.ToInt16(tbstatus.Text);
-            }
-            else
-            {
-                tablemenu.Status = 0;
-            }
+            //if (tbstatus.TextLength != 0)
+            //{
+            //    tablemenu.Status = Convert.ToInt16(tbstatus.Text);
+            //}
+            //else
+            //{
+            //    tablemenu.Status = 0;
+            //}
+            tablemenu.Status = 0;
             if (key == 0)
             {
                 tablemenuDAL.insertTableMenu(tablemenu);
@@ -382,7 +383,7 @@ namespace QuanLiNhaHang.GUI
             tbid.Text = dgvtable.Rows[numRow].Cells[0].Value.ToString();
             tbArea.Text = dgvtable.Rows[numRow].Cells[3].Value.ToString();
             tbtablename.Text = dgvtable.Rows[numRow].Cells[1].Value.ToString();
-            tbstatus.Text = dgvtable.Rows[numRow].Cells[2].Value.ToString();
+            //tbstatus.Text = dgvtable.Rows[numRow].Cells[2].Value.ToString();
         }
         private void btnsua_Click(object sender, EventArgs e)
         {
@@ -411,14 +412,15 @@ namespace QuanLiNhaHang.GUI
                 key++;
                 lbloitablename.Text = "*Tên bàn bị trùng";
             }
-            if (tbstatus.TextLength != 0)
-            {
-                tablemenu.Status = Convert.ToInt16(tbstatus.Text);
-            }
-            else
-            {
-                tablemenu.Status = 0;
-            }
+            //if (tbstatus.TextLength != 0)
+            //{
+            //    tablemenu.Status = Convert.ToInt16(tbstatus.Text);
+            //}
+            //else
+            //{
+            //    tablemenu.Status = 0;
+            //}
+            tablemenu.Status = 0;
             if (key == 0)
             {
                 tablemenuDAL.editTableMenu(tablemenu);
@@ -450,7 +452,6 @@ namespace QuanLiNhaHang.GUI
 
         // ****************************************************************************
 
-        // Binh
         private void btThongKe_Click(object sender, EventArgs e)
         {
             dvwTotal.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;

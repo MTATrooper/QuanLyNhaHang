@@ -8,11 +8,11 @@ namespace QuanLiNhaHang.ENTITY
 {
     class Bill
     {
-        int id;
-        int idTable;
-        DateTime dateCheckin;
-        int status;
-        int total;
+        private int id;
+        private int idTable;
+        private DateTime dateCheckin;
+        private int status;
+        private int total;
 
         public int Id
         {

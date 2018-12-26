@@ -8,11 +8,11 @@ namespace QuanLiNhaHang.ENTITY
 {
     class Employee
     {
-        int id;
-        string name;
-        int age;
-        string address;
-        string phoneNumber;
+        private int id;
+        private string name;
+        private int age;
+        private string address;
+        private string phoneNumber;
 
         public int Id
         {

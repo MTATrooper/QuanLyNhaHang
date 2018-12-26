@@ -29,7 +29,6 @@ namespace QuanLiNhaHang.DAL
         }
 
 
-        // binh
 
         public DataTable LoadDSByTime(DateTime date1, DateTime date2)
         {

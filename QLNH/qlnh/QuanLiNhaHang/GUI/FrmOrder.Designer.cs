@@ -35,12 +35,16 @@
             this.đổiMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btDelete = new System.Windows.Forms.Button();
+            this.btEdit = new System.Windows.Forms.Button();
+            this.btReturn = new System.Windows.Forms.Button();
             this.tbSoLuong = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.cbMenuCategory = new System.Windows.Forms.ComboBox();
             this.btChuyenBan = new System.Windows.Forms.Button();
             this.cbTable = new System.Windows.Forms.ComboBox();
+            this.btThemMon = new System.Windows.Forms.Button();
             this.lbTableName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,6 +52,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgrBillInfo = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btInHoaDon = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.lbSoDu = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -55,12 +60,7 @@
             this.lbTotal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tbKhach = new System.Windows.Forms.TextBox();
-            this.btInHoaDon = new System.Windows.Forms.Button();
             this.btThanhToan = new System.Windows.Forms.Button();
-            this.btDelete = new System.Windows.Forms.Button();
-            this.btEdit = new System.Windows.Forms.Button();
-            this.btReturn = new System.Windows.Forms.Button();
-            this.btThemMon = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -138,6 +138,50 @@
             this.panel3.Size = new System.Drawing.Size(344, 366);
             this.panel3.TabIndex = 4;
             // 
+            // btDelete
+            // 
+            this.btDelete.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDelete.Image = global::QuanLiNhaHang.Properties.Resources.delete__1_;
+            this.btDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btDelete.Location = new System.Drawing.Point(239, 307);
+            this.btDelete.Name = "btDelete";
+            this.btDelete.Size = new System.Drawing.Size(71, 45);
+            this.btDelete.TabIndex = 23;
+            this.btDelete.Text = "Xóa";
+            this.btDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btDelete.UseVisualStyleBackColor = true;
+            this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
+            // 
+            // btEdit
+            // 
+            this.btEdit.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEdit.Image = global::QuanLiNhaHang.Properties.Resources.edit_add;
+            this.btEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btEdit.Location = new System.Drawing.Point(147, 307);
+            this.btEdit.Name = "btEdit";
+            this.btEdit.Size = new System.Drawing.Size(69, 45);
+            this.btEdit.TabIndex = 22;
+            this.btEdit.Text = "Sửa";
+            this.btEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btEdit.UseVisualStyleBackColor = true;
+            this.btEdit.Click += new System.EventHandler(this.btEdit_Click);
+            // 
+            // btReturn
+            // 
+            this.btReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btReturn.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReturn.Image = global::QuanLiNhaHang.Properties.Resources.undo;
+            this.btReturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btReturn.Location = new System.Drawing.Point(0, 0);
+            this.btReturn.Name = "btReturn";
+            this.btReturn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btReturn.Size = new System.Drawing.Size(76, 53);
+            this.btReturn.TabIndex = 21;
+            this.btReturn.Text = "Trở lại";
+            this.btReturn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btReturn.UseVisualStyleBackColor = true;
+            this.btReturn.Click += new System.EventHandler(this.btReturn_Click);
+            // 
             // tbSoLuong
             // 
             this.tbSoLuong.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -196,6 +240,21 @@
             this.cbTable.Size = new System.Drawing.Size(169, 21);
             this.cbTable.TabIndex = 14;
             // 
+            // btThemMon
+            // 
+            this.btThemMon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btThemMon.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btThemMon.Image = global::QuanLiNhaHang.Properties.Resources.note_add;
+            this.btThemMon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btThemMon.Location = new System.Drawing.Point(56, 307);
+            this.btThemMon.Name = "btThemMon";
+            this.btThemMon.Size = new System.Drawing.Size(74, 45);
+            this.btThemMon.TabIndex = 9;
+            this.btThemMon.Text = "Thêm";
+            this.btThemMon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btThemMon.UseVisualStyleBackColor = true;
+            this.btThemMon.Click += new System.EventHandler(this.btThemMon_Click);
+            // 
             // lbTableName
             // 
             this.lbTableName.AutoSize = true;
@@ -250,10 +309,12 @@
             this.dgrBillInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgrBillInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgrBillInfo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgrBillInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgrBillInfo.Location = new System.Drawing.Point(8, 32);
+            this.dgrBillInfo.Location = new System.Drawing.Point(8, 3);
             this.dgrBillInfo.Name = "dgrBillInfo";
-            this.dgrBillInfo.Size = new System.Drawing.Size(556, 216);
+            this.dgrBillInfo.Size = new System.Drawing.Size(556, 245);
             this.dgrBillInfo.TabIndex = 0;
             this.dgrBillInfo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrBillInfo_CellClick);
             // 
@@ -274,6 +335,20 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(574, 101);
             this.panel2.TabIndex = 5;
+            // 
+            // btInHoaDon
+            // 
+            this.btInHoaDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btInHoaDon.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btInHoaDon.Image = global::QuanLiNhaHang.Properties.Resources.PrintStation_223190;
+            this.btInHoaDon.Location = new System.Drawing.Point(167, 6);
+            this.btInHoaDon.Name = "btInHoaDon";
+            this.btInHoaDon.Size = new System.Drawing.Size(107, 85);
+            this.btInHoaDon.TabIndex = 21;
+            this.btInHoaDon.Text = "In Hóa Đơn";
+            this.btInHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btInHoaDon.UseVisualStyleBackColor = true;
+            this.btInHoaDon.Click += new System.EventHandler(this.btInHoaDon_Click);
             // 
             // label6
             // 
@@ -346,20 +421,6 @@
             this.tbKhach.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbKhach.TextChanged += new System.EventHandler(this.tbKhach_TextChanged);
             // 
-            // btInHoaDon
-            // 
-            this.btInHoaDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btInHoaDon.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btInHoaDon.Image = global::QuanLiNhaHang.Properties.Resources.PrintStation_223190;
-            this.btInHoaDon.Location = new System.Drawing.Point(167, 6);
-            this.btInHoaDon.Name = "btInHoaDon";
-            this.btInHoaDon.Size = new System.Drawing.Size(107, 85);
-            this.btInHoaDon.TabIndex = 21;
-            this.btInHoaDon.Text = "In Hóa Đơn";
-            this.btInHoaDon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btInHoaDon.UseVisualStyleBackColor = true;
-            this.btInHoaDon.Click += new System.EventHandler(this.btInHoaDon_Click);
-            // 
             // btThanhToan
             // 
             this.btThanhToan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -373,65 +434,6 @@
             this.btThanhToan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btThanhToan.UseVisualStyleBackColor = true;
             this.btThanhToan.Click += new System.EventHandler(this.btThanhToan_Click);
-            // 
-            // btDelete
-            // 
-            this.btDelete.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDelete.Image = global::QuanLiNhaHang.Properties.Resources.delete__1_;
-            this.btDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btDelete.Location = new System.Drawing.Point(239, 307);
-            this.btDelete.Name = "btDelete";
-            this.btDelete.Size = new System.Drawing.Size(71, 45);
-            this.btDelete.TabIndex = 23;
-            this.btDelete.Text = "Xóa";
-            this.btDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btDelete.UseVisualStyleBackColor = true;
-            this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
-            // 
-            // btEdit
-            // 
-            this.btEdit.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEdit.Image = global::QuanLiNhaHang.Properties.Resources.edit_add;
-            this.btEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btEdit.Location = new System.Drawing.Point(147, 307);
-            this.btEdit.Name = "btEdit";
-            this.btEdit.Size = new System.Drawing.Size(69, 45);
-            this.btEdit.TabIndex = 22;
-            this.btEdit.Text = "Sửa";
-            this.btEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btEdit.UseVisualStyleBackColor = true;
-            this.btEdit.Click += new System.EventHandler(this.btEdit_Click);
-            // 
-            // btReturn
-            // 
-            this.btReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btReturn.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btReturn.Image = global::QuanLiNhaHang.Properties.Resources.undo;
-            this.btReturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btReturn.Location = new System.Drawing.Point(0, 0);
-            this.btReturn.Name = "btReturn";
-            this.btReturn.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btReturn.Size = new System.Drawing.Size(76, 53);
-            this.btReturn.TabIndex = 21;
-            this.btReturn.Text = "Trở lại";
-            this.btReturn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btReturn.UseVisualStyleBackColor = true;
-            this.btReturn.Click += new System.EventHandler(this.btReturn_Click);
-            // 
-            // btThemMon
-            // 
-            this.btThemMon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btThemMon.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThemMon.Image = global::QuanLiNhaHang.Properties.Resources.note_add;
-            this.btThemMon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btThemMon.Location = new System.Drawing.Point(56, 307);
-            this.btThemMon.Name = "btThemMon";
-            this.btThemMon.Size = new System.Drawing.Size(74, 45);
-            this.btThemMon.TabIndex = 9;
-            this.btThemMon.Text = "Thêm";
-            this.btThemMon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btThemMon.UseVisualStyleBackColor = true;
-            this.btThemMon.Click += new System.EventHandler(this.btThemMon_Click);
             // 
             // FrmOrder
             // 

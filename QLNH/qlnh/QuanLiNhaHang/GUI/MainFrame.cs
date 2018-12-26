@@ -14,7 +14,6 @@ namespace QuanLiNhaHang.GUI
 {
     public partial class MainFrame : Form
     {
-
         Account acc = new Account();
         public MainFrame(int PhanQuyen, string username, string password)
         {
@@ -59,12 +58,11 @@ namespace QuanLiNhaHang.GUI
                 BilDAL billDAL = new BilDAL();
                 string dt = DateTime.Today.ToString().Trim();
                 DateTime d = Convert.ToDateTime(dt);
-
                 billDAL.insertBill(tb.Id, d);
                 TableDAL tableDAL = new TableDAL();
                 tb = tableDAL.getTableById(tb.Id);
                 tb.Status = billDAL.getTop1IDBill();
-                MessageBox.Show(tb.Status.ToString());
+                //MessageBox.Show(tb.Status.ToString());
                 tableDAL.editTableMenu(tb);
             }
             this.Hide();
@@ -90,6 +88,7 @@ namespace QuanLiNhaHang.GUI
             {
                 FrmAdmin frmAdmin = new FrmAdmin();
                 frmAdmin.ShowDialog();
+                LoadTable(2);
             }
             else
             {

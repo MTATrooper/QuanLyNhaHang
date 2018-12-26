@@ -8,10 +8,10 @@ namespace QuanLiNhaHang.ENTITY
 {
     class Account
     {
-        string userName;
-        string passWord;
-        int type;
-        int idEmployee;
+        private string userName;
+        private string passWord;
+        private int type;
+        private int idEmployee;
 
         public string UserName
         {

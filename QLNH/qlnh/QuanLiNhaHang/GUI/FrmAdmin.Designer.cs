@@ -81,8 +81,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnthem = new System.Windows.Forms.Button();
             this.lbarea = new System.Windows.Forms.Label();
-            this.tbstatus = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lbloitablename = new System.Windows.Forms.Label();
             this.tbtablename = new System.Windows.Forms.TextBox();
@@ -685,8 +683,6 @@
             this.panel7.Controls.Add(this.label2);
             this.panel7.Controls.Add(this.btnthem);
             this.panel7.Controls.Add(this.lbarea);
-            this.panel7.Controls.Add(this.tbstatus);
-            this.panel7.Controls.Add(this.label4);
             this.panel7.Controls.Add(this.label3);
             this.panel7.Controls.Add(this.lbloitablename);
             this.panel7.Controls.Add(this.tbtablename);
@@ -712,7 +708,7 @@
             this.btnXuatfileban.Location = new System.Drawing.Point(262, 342);
             this.btnXuatfileban.Name = "btnXuatfileban";
             this.btnXuatfileban.Size = new System.Drawing.Size(62, 65);
-            this.btnXuatfileban.TabIndex = 41;
+            this.btnXuatfileban.TabIndex = 39;
             this.btnXuatfileban.Text = "Xuất file";
             this.btnXuatfileban.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnXuatfileban.UseVisualStyleBackColor = true;
@@ -722,7 +718,7 @@
             // 
             this.lbloiArea.AutoSize = true;
             this.lbloiArea.ForeColor = System.Drawing.Color.Red;
-            this.lbloiArea.Location = new System.Drawing.Point(180, 172);
+            this.lbloiArea.Location = new System.Drawing.Point(180, 225);
             this.lbloiArea.Name = "lbloiArea";
             this.lbloiArea.Size = new System.Drawing.Size(0, 13);
             this.lbloiArea.TabIndex = 40;
@@ -730,10 +726,10 @@
             // tbArea
             // 
             this.tbArea.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbArea.Location = new System.Drawing.Point(174, 134);
+            this.tbArea.Location = new System.Drawing.Point(174, 164);
             this.tbArea.Name = "tbArea";
             this.tbArea.Size = new System.Drawing.Size(150, 26);
-            this.tbArea.TabIndex = 39;
+            this.tbArea.TabIndex = 34;
             // 
             // label5
             // 
@@ -762,7 +758,7 @@
             this.btnxoa.Location = new System.Drawing.Point(182, 342);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(62, 65);
-            this.btnxoa.TabIndex = 36;
+            this.btnxoa.TabIndex = 38;
             this.btnxoa.Text = "Xóa";
             this.btnxoa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnxoa.UseVisualStyleBackColor = true;
@@ -776,7 +772,7 @@
             this.btnsua.Location = new System.Drawing.Point(102, 342);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(52, 65);
-            this.btnsua.TabIndex = 35;
+            this.btnsua.TabIndex = 37;
             this.btnsua.Text = "Sửa";
             this.btnsua.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnsua.UseVisualStyleBackColor = true;
@@ -810,7 +806,7 @@
             this.btnthem.Location = new System.Drawing.Point(22, 342);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(60, 65);
-            this.btnthem.TabIndex = 34;
+            this.btnthem.TabIndex = 36;
             this.btnthem.Text = "Thêm";
             this.btnthem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnthem.UseVisualStyleBackColor = true;
@@ -820,35 +816,17 @@
             // 
             this.lbarea.AutoSize = true;
             this.lbarea.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbarea.Location = new System.Drawing.Point(58, 134);
+            this.lbarea.Location = new System.Drawing.Point(58, 164);
             this.lbarea.Name = "lbarea";
             this.lbarea.Size = new System.Drawing.Size(51, 19);
             this.lbarea.TabIndex = 27;
             this.lbarea.Text = "Area :";
             // 
-            // tbstatus
-            // 
-            this.tbstatus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbstatus.Location = new System.Drawing.Point(174, 275);
-            this.tbstatus.Name = "tbstatus";
-            this.tbstatus.Size = new System.Drawing.Size(150, 26);
-            this.tbstatus.TabIndex = 33;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(49, 278);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 19);
-            this.label4.TabIndex = 32;
-            this.label4.Text = "Status :";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 203);
+            this.label3.Location = new System.Drawing.Point(36, 256);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 19);
             this.label3.TabIndex = 30;
@@ -858,7 +836,7 @@
             // 
             this.lbloitablename.AutoSize = true;
             this.lbloitablename.ForeColor = System.Drawing.Color.Red;
-            this.lbloitablename.Location = new System.Drawing.Point(210, 242);
+            this.lbloitablename.Location = new System.Drawing.Point(210, 265);
             this.lbloitablename.Name = "lbloitablename";
             this.lbloitablename.Size = new System.Drawing.Size(0, 13);
             this.lbloitablename.TabIndex = 25;
@@ -866,10 +844,10 @@
             // tbtablename
             // 
             this.tbtablename.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbtablename.Location = new System.Drawing.Point(174, 197);
+            this.tbtablename.Location = new System.Drawing.Point(174, 250);
             this.tbtablename.Name = "tbtablename";
             this.tbtablename.Size = new System.Drawing.Size(150, 26);
-            this.tbtablename.TabIndex = 31;
+            this.tbtablename.TabIndex = 35;
             // 
             // panel1
             // 
@@ -1371,8 +1349,6 @@
         private System.Windows.Forms.Label lbnotice1;
         private System.Windows.Forms.Label lbloitablename;
         private System.Windows.Forms.Button btnthem;
-        private System.Windows.Forms.TextBox tbstatus;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tbtablename;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

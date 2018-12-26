@@ -8,8 +8,8 @@ namespace QuanLiNhaHang.ENTITY
 {
     class MenuCategory
     {
-        int id;
-        string name;
+        private int id;
+        private string name;
 
         public int Id
         {
