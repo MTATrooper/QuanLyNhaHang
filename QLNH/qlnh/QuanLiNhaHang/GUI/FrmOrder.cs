@@ -190,7 +190,7 @@ namespace QuanLiNhaHang.GUI
         {
             if (Convert.ToInt32(lbSoDu.Text) >= 0)
             {
-                MessageBox.Show("Tiền khách đưa:  " + total + "\n" + "Tiền trả lại:  " + Convert.ToInt32(lbSoDu.Text), "Thanh toán " + table.TableName);
+                MessageBox.Show("Tổng tiền hóa đơn:  " + total + "\n" + "Tiền trả lại:  " + Convert.ToInt32(lbSoDu.Text), "Thanh toán " + table.TableName);
             }
             else
             {
