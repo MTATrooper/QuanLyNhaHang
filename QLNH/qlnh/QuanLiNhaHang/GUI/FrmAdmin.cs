@@ -146,15 +146,10 @@ namespace QuanLiNhaHang.GUI
                         // dgvmenu.DataSource = mnDAL.LoadDSMenuByCate(idCate);
                         HienThiDSMenu();
                     }
-                    else
-                    {
-                        //MessageBox.Show(" Có lỗi khi xóa món", "Thông báo");
-                    }
-
                 }
                 catch
                 {
-                    MessageBox.Show("Mã món không thỏa mãn", " Lỗi ");
+                    MessageBox.Show("Không xóa được món này", " Lỗi ");
                 }
 
             }
@@ -367,6 +362,7 @@ namespace QuanLiNhaHang.GUI
             {
                 tablemenuDAL.insertTableMenu(tablemenu);
                 lbnotice1.Text = "Thêm bàn thành công";
+                lbloitablename.Text = "";
                 dgvtable.DataSource = tablemenuDAL.getTableMenu();
             }
             else

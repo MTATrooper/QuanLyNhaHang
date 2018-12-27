@@ -35,7 +35,7 @@ namespace QuanLiNhaHang.DAL
             string d1 = date1.Year + "-" + date1.Month + "-" + date1.Day;
             string d2 = date2.Year + "-" + date2.Month + "-" + date2.Day;
             //   string query = string.Format("SELECT * FROM dbo.Bill WHERE DateCheckIn>='{0}' AND DateCheckIn<='{1}'", date1.ToShortDateString(), date2.ToShortDateString());
-            string query = string.Format("SELECT * FROM dbo.Bill WHERE DateCheckIn>='{0}' AND DateCheckIn<='{1}'", d1, d2);
+            string query = string.Format("SELECT * FROM dbo.Bill WHERE DateCheckIn>='{0}' AND DateCheckIn<='{1}' AND Status = 1", d1, d2);
 
             return dbConnect.GETdata(query);
         }

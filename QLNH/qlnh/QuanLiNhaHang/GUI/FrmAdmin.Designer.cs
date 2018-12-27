@@ -783,7 +783,7 @@
             this.lbnotice1.AutoSize = true;
             this.lbnotice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbnotice1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.lbnotice1.Location = new System.Drawing.Point(144, 391);
+            this.lbnotice1.Location = new System.Drawing.Point(19, 405);
             this.lbnotice1.Name = "lbnotice1";
             this.lbnotice1.Size = new System.Drawing.Size(0, 16);
             this.lbnotice1.TabIndex = 26;
@@ -836,7 +836,7 @@
             // 
             this.lbloitablename.AutoSize = true;
             this.lbloitablename.ForeColor = System.Drawing.Color.Red;
-            this.lbloitablename.Location = new System.Drawing.Point(210, 265);
+            this.lbloitablename.Location = new System.Drawing.Point(171, 289);
             this.lbloitablename.Name = "lbloitablename";
             this.lbloitablename.Size = new System.Drawing.Size(0, 13);
             this.lbloitablename.TabIndex = 25;

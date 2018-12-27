@@ -210,22 +210,6 @@ namespace QuanLiNhaHang.GUI
             this.Close();
         }
 
-       
-
-        private void trangADMINToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            if (this.acc.Type == 1)
-            {
-                FrmAdmin frmAdmin = new FrmAdmin();
-                frmAdmin.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Bạn không có quyền truy cập", "Lỗi");
-            }
-        }
-
         private void btEdit_Click(object sender, EventArgs e)
         {
             int soLuong;

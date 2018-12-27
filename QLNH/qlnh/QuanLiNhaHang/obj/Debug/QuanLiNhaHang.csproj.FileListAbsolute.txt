@@ -255,3 +255,20 @@ E:\Tài liệu kỳ 1 năm 4\CNPM\BT\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNha
 E:\Tài liệu kỳ 1 năm 4\CNPM\BT\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.MainFrame.resources
 E:\Tài liệu kỳ 1 năm 4\CNPM\BT\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.Properties.Resources.resources
 E:\Tài liệu kỳ 1 năm 4\CNPM\BT\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.GenerateResource.Cache
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.exe.config
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.ResolveComReference.cache
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.exe
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.exe
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.pdb
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csprojResolveAssemblyReference.cache
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.Form1.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrmCapTaiKhoan.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrmDoiMatKhau.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrmOrder.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrUpdateAccount.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrmAdmin.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.FrmLogin.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.GUI.MainFrame.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.Properties.Resources.resources
+E:\Projects\QLNH\qlnh\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.GenerateResource.Cache

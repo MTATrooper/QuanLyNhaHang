@@ -114,7 +114,7 @@ namespace QuanLiNhaHang.DAL
         // sua ban
         public void editTableMenu(Table tb)
         {
-            string query = string.Format("UPDATE dbo.TableMenu set TableName=N'{0}', Area=N'{1}' where Id={2}", tb.TableName, tb.Area, tb.Id);
+            string query = string.Format("UPDATE dbo.TableMenu set TableName=N'{0}', Status = {1}, Area=N'{2}' where Id={3}", tb.TableName, tb.Status, tb.Area, tb.Id);
             dbConnect.ExecuteNonQuery(query);
         }
 
